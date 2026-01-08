@@ -1,0 +1,25 @@
+#ifndef __EX_LED_H
+#define __EX_LED_H
+
+#include "gpio.h"
+
+
+/* 引脚定义 */
+#define EX_LED0_GPIO_Port    GPIOC
+#define EX_LED0_Pin          GPIO_PIN_13    /* IO置高电平，LED灭 */
+
+/* LED模式定义 */
+#define EX_LED0(x)    do{ x ? \
+                      HAL_GPIO_WritePin(EX_LED0_GPIO_Port, EX_LED0_Pin, GPIO_PIN_SET) : \
+                      HAL_GPIO_WritePin(EX_LED0_GPIO_Port, EX_LED0_Pin, GPIO_PIN_RESET); \
+                  }while(0)                                                          /* x = 1 , IO置高电平；x = 0 , IO置低电平 */
+
+/* LED模式取反 */
+#define EX_LED0_TOGGLE()    do{HAL_GPIO_TogglePin(EX_LED0_GPIO_Port, EX_LED0_Pin);}while(0)       /* LED = !LED */
+
+/* 接口函数 */
+void ex_led_init(void);    /* LED初始化 */
+
+void ex_led_example(void);    /* LED试验 */
+
+#endif    /* __EX_LED_H */

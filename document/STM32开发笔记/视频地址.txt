@@ -1,0 +1,14 @@
+【江协科技】STM32入门教程
+https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=b6cd6dd41c0769968f58ce886d249f74
+
+
+【HAL库复现江协全部STM32例子合集】
+https://www.bilibili.com/video/BV1tZ421x7kV/?spm_id_from=333.999.0.0&vd_source=b6cd6dd41c0769968f58ce886d249f74
+
+
+【铁头山羊】stm32 HAL库入门教程
+https://www.bilibili.com/video/BV16J4m1w7HB/?share_source=copy_web&vd_source=86b5f625abf15dd7c7c74bfc5efc38d5
+
+
+【keysking】STM32教程
+https://www.bilibili.com/video/BV12v4y1y7uV/?spm_id_from=333.999.0.0&vd_source=b6cd6dd41c0769968f58ce886d249f74
