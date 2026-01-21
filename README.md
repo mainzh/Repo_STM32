@@ -1,4 +1,6 @@
-# Repo_STM32
+# Repo_F103C8_Core
+
+STM32F103C8T6核心板
 
 ==仓库目录结构==
 
